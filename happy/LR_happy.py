@@ -66,11 +66,6 @@ pre = pd.DataFrame(data=y_predict, columns=["a"])
 plt.figure()
 plt.plot(t, pre["a"], 'r-', linewidth=2, label='Predict_b')
 plt.plot(t, y_test, 'g-', linewidth=2, label='test')
-
-
-
-
-
 plt.legend(loc='upper right')
 
 plt.show()

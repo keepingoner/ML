@@ -6,7 +6,21 @@ data = pd.read_csv("8.Regression/8.Advertising.csv")
 data.head()
 data.info()
 
-# 特征提取  文本特征 import feature_select
+
+# 数据处理
+# 缺失值处理
+# 标准化  归一化
+# 编码化 pca降纬
+# 特征提取  文本特征 feature_select文件
 
 
-# 数据处理  缺失值处理  标准化  归一化  编码化
+
+
+
+# 网格搜索
+
+
+
+
+
+

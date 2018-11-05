@@ -96,7 +96,7 @@ def load_data(file_name, is_train):
 
 
 def write_result(c, c_type):
-    file_name = '12.Titanic.test.csv'
+    file_name = '12.Titanic.jack_rose_test.csv'
     x, passenger_id = load_data(file_name, False)
 
     if type == 3:
@@ -113,7 +113,7 @@ def write_result(c, c_type):
 
 
 if __name__ == "__main__":
-    x, y = load_data('12.Titanic.train.csv', True)
+    x, y = load_data('12.Titanic.jack_rose_train.csv', True)
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.5, random_state=1)
 
     lr = LogisticRegression(penalty='l2')
